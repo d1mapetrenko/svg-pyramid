@@ -1,0 +1,37 @@
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+}
+.pyramid {
+    text-align: center;
+    svg {
+        vertical-align: bottom;
+        path {
+            cursor: pointer;
+        }
+    }
+    .content {
+        color: #fff;
+        width: 200px;
+        margin: 0 auto;
+        text-align: center;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .active {
+        path {
+            fill: #82ba31;
+        }
+        .content {
+            opacity: 1;
+            font-size: 0.875rem;
+            h3 {
+                margin: 0 0 5px 0;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            p {
+                margin: 0;
+            }
+        }
+    }
+}
